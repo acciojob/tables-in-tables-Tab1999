@@ -7,8 +7,100 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
-      <!-- Your code here -->
-    </table>
+    <table border="1" style="width: 100%; height: 100%; border-collapse: collapse; text-align: center;">
+    <tr>
+      <!-- Nested Table 1 -->
+      <td>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th colspan="2">Nested Table 1</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1 Col 1</td>
+              <td>Row 1 Col 2</td>
+            </tr>
+            <tr>
+              <td>Row 2 Col 1</td>
+              <td>Row 2 Col 2</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+
+      <!-- Nested Table 2 -->
+      <td>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th>Nested Table 2</th>
+              <th>Column 1</th>
+              <th>Column 2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Row 1</td>
+              <td>Data 1</td>
+              <td>Data 2</td>
+            </tr>
+            <tr>
+              <td>Row 2</td>
+              <td>Data 3</td>
+              <td>Data 4</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <!-- Nested Table 3 -->
+      <td>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th colspan="2">Nested Table 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <ul>
+                  <li>List item 1</li>
+                  <li>List item 2</li>
+                  <li>List item 3</li>
+                </ul>
+              </td>
+              <td>Other Data</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+
+      <!-- Nested Table 4 -->
+      <td>
+        <table border="1" style="width: 100%; border-collapse: collapse;">
+          <thead>
+            <tr>
+              <th colspan="2">Nested Table 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="background-color: black; color: white;">HTML</td>
+              <td>CSS</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>Python</td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </table>
   </body>
 </html>
